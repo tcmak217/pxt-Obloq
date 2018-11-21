@@ -1,0 +1,23 @@
+{
+    "name": "Obloq",
+    "version": "1.0.0",
+    "description": "Add Wi-Fi connectivity to micro:bit and start your IoT project in 5 minutes!",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "Obloq.ts",
+        "Obloq.cpp",
+        "_locales/zh-cn/Obloq-strings.json",
+        "_locales/zh-tw/Obloq-strings.json"
+    ],
+    "testFiles": [
+        "test.ts",
+        "mqttMoretest.ts",
+        "httpTest.ts"
+    ],
+    "public": true
+}
